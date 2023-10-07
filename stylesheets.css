@@ -1,12 +1,33 @@
 .decoration {
-    background-color: blue;
+    background-color: lightblue;
     font-weight: bold;
-}
-
-a {
-    color: blue;
 }
 
 a:hover {
     color: red;
+}
+
+#youtube-title {
+    background-color: lightcoral;
+    font-size: 16px;
+    width: 300px;
+}
+
+#about-me {
+    width: 200px;
+    height: 100px;
+}
+
+#quick-bio {
+    font-weight: bolder;
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+}
+
+img {
+    max-width: 50%; /* Limits the width to the container width */
+    max-height: 50%; /* Limits the height to the container height */
+    width: auto; /* Ensures the aspect ratio is maintained */
+    height: auto; /* Ensures the aspect ratio is maintained */
 }
